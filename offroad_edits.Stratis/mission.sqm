@@ -1,0 +1,230 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_map_stratis"
+	};
+	randomSeed=316955;
+	class Intel
+	{
+		briefingName="bannerandsigns";
+		startWeather=0;
+		startWind=0.079999998;
+		startWindDir=10;
+		startGust=0.14;
+		forecastWeather=0;
+		forecastWind=0.12;
+		forecastWaves=0;
+		forecastGust=0.17999999;
+		forecastWindDir=15;
+		windForced=1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1799.2753,5.5,5751.3799};
+					azimut=141.04309;
+					id=0;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=11;
+		class Item0
+		{
+			position[]={1815.4044,5.5,5727.3706};
+			name="truckspawn1";
+			type="Empty";
+			angle=-249.96762;
+		};
+		class Item1
+		{
+			position[]={1828.6597,5.5,5729.415};
+			name="truckspawn0";
+			type="Empty";
+			angle=-38.22168;
+		};
+		class Item2
+		{
+			position[]={1829.5421,5.5,5724.9937};
+			name="truckspawn5";
+			type="Empty";
+			angle=-249.36812;
+		};
+		class Item3
+		{
+			position[]={1825.1337,5.5,5727.0405};
+			name="truckspawn2";
+			type="Empty";
+			angle=-57.848953;
+		};
+		class Item4
+		{
+			position[]={1817.1177,5.5,5732.7041};
+			name="truckspawn3";
+			type="Empty";
+			angle=-612.70386;
+		};
+		class Item5
+		{
+			position[]={1825.986,5.5,5733.3071};
+			name="truckspawn4";
+			type="Empty";
+			angle=-57.968052;
+		};
+		class Item6
+		{
+			position[]={1818.8923,5.5,5726.9033};
+			name="truckspawn7";
+			type="Empty";
+			angle=-249.61412;
+		};
+		class Item7
+		{
+			position[]={1822.6384,5.5,5725.894};
+			name="truckspawn6";
+			type="Empty";
+			angle=-64.378975;
+		};
+		class Item8
+		{
+			position[]={1820.8711,5.5,5730.8984};
+			name="truckspawn10";
+			type="Empty";
+			angle=-61.960617;
+		};
+		class Item9
+		{
+			position[]={1814.0137,5.5,5730.9888};
+			name="truckspawn9";
+			type="Empty";
+			angle=-244.298;
+		};
+		class Item10
+		{
+			position[]={1824.8556,5.5,5724.2998};
+			name="truckspawn8";
+			type="Empty";
+			angle=-69.386749;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=4103789;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=13240307;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=4803425;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
